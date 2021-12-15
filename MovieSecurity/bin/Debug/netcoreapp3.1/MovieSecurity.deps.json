@@ -32,6 +32,7 @@
       "MovieSecurity/1.0.0": {
         "dependencies": {
           "Microsoft.AspNetCore.Authentication.AzureAD.UI": "3.1.21",
+          "Microsoft.Owin.Security.OAuth": "4.2.0",
           "Microsoft.AspNetCore.Antiforgery": "3.1.0.0",
           "Microsoft.AspNetCore.Authentication.Abstractions": "3.1.0.0",
           "Microsoft.AspNetCore.Authentication.Cookies": "3.1.0.0",
@@ -465,6 +466,52 @@
       },
       "Microsoft.NETCore.Platforms/1.1.0": {},
       "Microsoft.NETCore.Targets/1.1.0": {},
+      "Microsoft.Owin/4.2.0": {
+        "dependencies": {
+          "Owin": "1.0.0"
+        },
+        "runtime": {
+          "lib/net45/Microsoft.Owin.dll": {
+            "assemblyVersion": "4.2.0.0",
+            "fileVersion": "4.2.34971.142"
+          }
+        },
+        "compile": {
+          "lib/net45/Microsoft.Owin.dll": {}
+        }
+      },
+      "Microsoft.Owin.Security/4.2.0": {
+        "dependencies": {
+          "Microsoft.Owin": "4.2.0",
+          "Owin": "1.0.0"
+        },
+        "runtime": {
+          "lib/net45/Microsoft.Owin.Security.dll": {
+            "assemblyVersion": "4.2.0.0",
+            "fileVersion": "4.2.34971.142"
+          }
+        },
+        "compile": {
+          "lib/net45/Microsoft.Owin.Security.dll": {}
+        }
+      },
+      "Microsoft.Owin.Security.OAuth/4.2.0": {
+        "dependencies": {
+          "Microsoft.Owin": "4.2.0",
+          "Microsoft.Owin.Security": "4.2.0",
+          "Newtonsoft.Json": "10.0.1",
+          "Owin": "1.0.0"
+        },
+        "runtime": {
+          "lib/net45/Microsoft.Owin.Security.OAuth.dll": {
+            "assemblyVersion": "4.2.0.0",
+            "fileVersion": "4.2.34971.142"
+          }
+        },
+        "compile": {
+          "lib/net45/Microsoft.Owin.Security.OAuth.dll": {}
+        }
+      },
       "Newtonsoft.Json/10.0.1": {
         "dependencies": {
           "Microsoft.CSharp": "4.3.0",
@@ -502,6 +549,17 @@
         },
         "compile": {
           "lib/netstandard1.3/Newtonsoft.Json.dll": {}
+        }
+      },
+      "Owin/1.0.0": {
+        "runtime": {
+          "lib/net40/Owin.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        },
+        "compile": {
+          "lib/net40/Owin.dll": {}
         }
       },
       "System.Collections/4.3.0": {
@@ -2676,12 +2734,40 @@
       "path": "microsoft.netcore.targets/1.1.0",
       "hashPath": "microsoft.netcore.targets.1.1.0.nupkg.sha512"
     },
+    "Microsoft.Owin/4.2.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-NPPwhK+oSf6JWAy6m2Dq7xYIVnEvUTeMM1mVaOobkiVsOaHPAu8E05/fKAjrDBBDCC14z32jwnZyPs3z9UNV5w==",
+      "path": "microsoft.owin/4.2.0",
+      "hashPath": "microsoft.owin.4.2.0.nupkg.sha512"
+    },
+    "Microsoft.Owin.Security/4.2.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-w/cWWNkc4sBRYHmY49VSfgKGEXVbBNecnrLR6sHf/shkRpFvitduo6dGUy/CwL3bQEFPEbuyQeXmMVVXQj3R4Q==",
+      "path": "microsoft.owin.security/4.2.0",
+      "hashPath": "microsoft.owin.security.4.2.0.nupkg.sha512"
+    },
+    "Microsoft.Owin.Security.OAuth/4.2.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-aMHGnSrCqFyS3a5mwiTx0isrxXoYvi3Xt4KDjj00zswFhb9EmjfJL6EmP6WuopefixdMpNQGJ5XQjT+qtBd5lA==",
+      "path": "microsoft.owin.security.oauth/4.2.0",
+      "hashPath": "microsoft.owin.security.oauth.4.2.0.nupkg.sha512"
+    },
     "Newtonsoft.Json/10.0.1": {
       "type": "package",
       "serviceable": true,
       "sha512": "sha512-ebWzW9j2nwxQeBo59As2TYn7nYr9BHicqqCwHOD1Vdo+50HBtLPuqdiCYJcLdTRknpYis/DSEOQz5KmZxwrIAg==",
       "path": "newtonsoft.json/10.0.1",
       "hashPath": "newtonsoft.json.10.0.1.nupkg.sha512"
+    },
+    "Owin/1.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-OseTFniKmyp76mEzOBwIKGBRS5eMoYNkMKaMXOpxx9jv88+b6mh1rSaw43vjBOItNhaLFG3d0a20PfHyibH5sw==",
+      "path": "owin/1.0.0",
+      "hashPath": "owin.1.0.0.nupkg.sha512"
     },
     "System.Collections/4.3.0": {
       "type": "package",

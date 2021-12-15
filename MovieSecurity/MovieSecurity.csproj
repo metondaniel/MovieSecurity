@@ -2,12 +2,13 @@
 
   <PropertyGroup>
     <TargetFramework>netcoreapp3.1</TargetFramework>
-    <UserSecretsId>aspnet-WebApplication1-232E09C8-4676-4325-9B50-2052B078E549</UserSecretsId>
+    <UserSecretsId>aspnet-MovieSecurity-232E09C8-4676-4325-9B50-2052B078E549</UserSecretsId>
     <WebProject_DirectoryAccessLevelKey>0</WebProject_DirectoryAccessLevelKey>
   </PropertyGroup>
 
   <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.Authentication.AzureAD.UI" Version="3.1.21" />
+    <PackageReference Include="Microsoft.Owin.Security.OAuth" Version="4.2.0" />
   </ItemGroup>
 
 </Project>

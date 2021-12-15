@@ -9,9 +9,8 @@ using System.Linq;
 using System.Security.Claims;
 using System.Threading.Tasks;
 
-namespace WebApplication1.Controllers
+namespace MovieSecurity.Controllers
 {
-    [Authorize]
     [ApiController]
     [Route("[controller]")]
     public class AuthenticationController : ControllerBase

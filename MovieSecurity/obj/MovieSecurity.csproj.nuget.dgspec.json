@@ -51,6 +51,10 @@
             "Microsoft.AspNetCore.Authentication.AzureAD.UI": {
               "target": "Package",
               "version": "[3.1.21, )"
+            },
+            "Microsoft.Owin.Security.OAuth": {
+              "target": "Package",
+              "version": "[4.2.0, )"
             }
           },
           "imports": [
