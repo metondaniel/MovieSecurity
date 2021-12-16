@@ -50,7 +50,6 @@ C:\Users\danie\Documents\Project\MovieSecurity\MovieSecurity\MovieSecurity\bin\D
 C:\Users\danie\Documents\Project\MovieSecurity\MovieSecurity\MovieSecurity\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Tokens.dll
 C:\Users\danie\Documents\Project\MovieSecurity\MovieSecurity\MovieSecurity\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
 C:\Users\danie\Documents\Project\MovieSecurity\MovieSecurity\MovieSecurity\bin\Debug\netcoreapp3.1\System.IdentityModel.Tokens.Jwt.dll
-C:\Users\danie\Documents\Project\MovieSecurity\MovieSecurity\MovieSecurity\obj\Debug\netcoreapp3.1\MovieSecurity.csproj.AssemblyReference.cache
 C:\Users\danie\Documents\Project\MovieSecurity\MovieSecurity\MovieSecurity\obj\Debug\netcoreapp3.1\MovieSecurity.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\danie\Documents\Project\MovieSecurity\MovieSecurity\MovieSecurity\obj\Debug\netcoreapp3.1\MovieSecurity.AssemblyInfoInputs.cache
 C:\Users\danie\Documents\Project\MovieSecurity\MovieSecurity\MovieSecurity\obj\Debug\netcoreapp3.1\MovieSecurity.AssemblyInfo.cs
@@ -69,3 +68,6 @@ C:\Users\danie\Documents\Project\MovieSecurity\MovieSecurity\MovieSecurity\bin\D
 C:\Users\danie\Documents\Project\MovieSecurity\MovieSecurity\MovieSecurity\bin\Debug\netcoreapp3.1\Microsoft.Owin.Security.dll
 C:\Users\danie\Documents\Project\MovieSecurity\MovieSecurity\MovieSecurity\bin\Debug\netcoreapp3.1\Microsoft.Owin.Security.OAuth.dll
 C:\Users\danie\Documents\Project\MovieSecurity\MovieSecurity\MovieSecurity\bin\Debug\netcoreapp3.1\Owin.dll
+C:\Users\danie\Documents\Project\MovieSecurity\MovieSecurity\MovieSecurity\bin\Debug\netcoreapp3.1\Microsoft.DotNet.PlatformAbstractions.dll
+C:\Users\danie\Documents\Project\MovieSecurity\MovieSecurity\MovieSecurity\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyModel.dll
+C:\Users\danie\Documents\Project\MovieSecurity\MovieSecurity\MovieSecurity\obj\Debug\netcoreapp3.1\MovieSecurity.csproj.AssemblyReference.cache

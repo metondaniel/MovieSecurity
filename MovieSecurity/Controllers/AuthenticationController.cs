@@ -1,6 +1,7 @@
 ﻿using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
+using MovieSecurity.Model;
 using MovieSecurity.Security.Interface;
 using MovieSecurity.Security.Service;
 using System;
@@ -23,12 +24,13 @@ namespace MovieSecurity.Controllers
             _logger = logger;
         }
 
-        [HttpGet]
-        public async Task<ActionResult<dynamic>> SignIn(string login, string password)
+        [HttpPost]
+        [Route("signin")]
+        public async Task<ActionResult<dynamic>> SignIn([FromBody]LoginModel loginModel)
         {
-            if (!string.IsNullOrEmpty(login) && !string.IsNullOrEmpty(password))
+            if (!string.IsNullOrEmpty(loginModel.Login) && !string.IsNullOrEmpty(loginModel.Password))
             {
-                 IJwtModel model = GetJWTContainerModel(login, "someEmail");
+                 IJwtModel model = GetJWTContainerModel(loginModel.Login, "someEmail");
                 IAuthService authService = new JWTService(model.SecretKey);
 
                 string token = authService.GenerateToken(model);
