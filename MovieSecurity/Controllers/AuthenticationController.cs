@@ -46,8 +46,10 @@ namespace MovieSecurity.Controllers
             }
         }
         [HttpPost]
-        public async Task<ActionResult<dynamic>> Validate(string token)
+        [Route("validate")]
+        public async Task<ActionResult<dynamic>> Validate()
         {
+            string token = Request.Form["token"].ToString();
             if (!string.IsNullOrEmpty(token))
             {
                 IJwtModel model = GetJWTContainerModel("", "");
